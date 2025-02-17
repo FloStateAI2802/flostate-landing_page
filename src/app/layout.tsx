@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "NeuralWeave",
+    title: "FloState",
     description: "SaaS Landing Page",
 };
 
