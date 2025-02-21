@@ -5,8 +5,8 @@ import Image from "next/image";
 import { motion, useAnimate } from "framer-motion";
 
 import Button from "@/components/Button";
-import designExample1Image from "@/assets/images/design-example-1.png";
-import designExample2Image from "@/assets/images/design-example-2.png";
+import designExample3Image from "@/assets/images/design-example-3.png";
+import designExample4Image from "@/assets/images/design-example-right.png";
 import Pointer from "@/components/Pointer";
 import cursorYouImg from "@/assets/images/cursor-you.svg";
 
@@ -69,7 +69,9 @@ export default function Hero() {
                     className="absolute -left-32 top-16 hidden lg:block"
                 >
                     <Image
-                        src={designExample1Image}
+                        src={designExample3Image}
+                        width={310}
+                        height={439}
                         draggable="false"
                         alt="design example 1 img"
                     />
@@ -88,7 +90,9 @@ export default function Hero() {
                     className="absolute -right-64 -top-16 hidden lg:block"
                 >
                     <Image
-                        src={designExample2Image}
+                        src={designExample4Image}
+                        width={432}
+                        height={564}
                         draggable="false"
                         alt="design example 2 img"
                     />
