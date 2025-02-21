@@ -2,9 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useScroll, useTransform } from "framer-motion";
+import { twMerge } from "tailwind-merge";
 
 import Tag from "@/components/Tag";
-import { twMerge } from "tailwind-merge";
 
 const text =
     "but you are tired of wrestling with complex code just to automate your agentic workflows, wasting valuable time and resources on technical hurdles.";
